@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikhil - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Nikhil's Portfolio</div>
+        <!-- <div class="right"></div> -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        </main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Nikhil</span>
+                
+                <div>and I am a passionate</div> 
+            
+            <span id="element"></span>
+            <div class="buttons">
+                <a href="resume.pdf" download="Nikhil_Resume.pdf">  <button class="btn">Download Resume</button>
+                </a>
+                
+                <a href="https://github.com/nikhilholla"> <button class="btn">Visit Github</button>
+                </a>
+            </div>
+            </div>
+            <div class="rightSection">
+            <img src="img_dev.png" alt="">
+        </div>
+            
+        </section>
+        <hr>
+        <section class="secondSection" id="projects">
+            <span class="text-gray">What I have done so far</span>
+            <h1>My Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="app.png" alt="">
+                
+                    <div class="vertical-title">
+                    Mobile Application Development
+                    
+                </div>
+                <div class="vertical-desc">
+                    Developed an app called snapcode that stores all the important computer science concepts in one place
+                    that is very useful for last minute preparation.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="aiml.png" alt="">
+            
+                <div class="vertical-title">
+                    Artificial Intelligence and Machine Learning
+            </div>
+            <div class="vertical-desc">
+                AIML project "Air Writing" allows character recognition through gestures in the air. It likely uses machine learning to interpret hand movements and translate them into text, offering a touchless text input method.
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="app.png" alt="">
+        
+            <div class="vertical-title">
+                Mobile Application Development
+            
+        </div>
+        <div class="vertical-desc">
+            AR Plant Identifier works by pointing your phone camera at a plant to identify its species with augmented reality.
+        </div>
+    </div>
+    <div class="vertical">
+        <img class="image-top" src="python.png" alt="">
+    
+        <div class="vertical-title">
+            Python Developer
+    </div>
+    <div class="vertical-desc">
+        An python project called "Interactive Recipe Assistant" uses chatbots to guide users through recipes, answering questions and suggesting substitutions based on user input
+    </div>
+</div>
+<div class="vertical">
+    <img class="image-top" src="python.png" alt="">
+
+    <div class="vertical-title">
+        Python Developer
+    
+</div>
+<div class="vertical-desc">
+    Sentiment Analyzer is a Python project analyzes text data (reviews, tweets) to determine if it expresses positive, negative, or neutral sentiment. (24 words)
+
+
+</div>
+</div>
+
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            
+            <div class="footer-first">
+              <h3 class="contact" id="contact">Contact Me</h3>
+            </div>
+           
+          </div>
+            
+        <div class="footer-rights">
+            <a href="https://github.com/nikhilholla">Github</a> | 
+  <a href="https://www.linkedin.com/in/nikhil-holla-r-4056a0258">Linkedin</a>
+</div>
+          
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'App Developer', 'Python Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+  </body>
+</html>
